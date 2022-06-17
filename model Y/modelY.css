@@ -1,0 +1,58 @@
+.modely{
+    background: url("../img/model-y_R12.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.sombra:hover{
+    cursor: pointer;
+    background:#9fa0a1 ;
+    border-radius: 15px;
+}
+.margin-x-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ybotones{
+    margin-top: 31vw;
+}
+
+/* hamburguesa */
+.menu-despliegue{
+    display: none;
+   background-color: white !important; 
+   position: fixed;
+   right: 0%;
+   top: 0;
+   width: 15%;
+   height: 100vh;
+   text-align: center;
+}
+.menu-despliegue ul {
+    justify-content: center;
+    gap: 2em;
+    height: 100%;
+  } 
+  .menu-despliegue ul li a{
+    color: #393C41 !important;
+  } 
+  .menu-despliegue ul li a:hover{
+    background-color:#d3d3d3 ;
+    border-radius: 15px;
+    color: black !important;
+  } 
+  .menu-cierre{
+    color: Gray;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+  .menu-cierre:hover{
+    border-radius: 80%;
+    padding: 0.2em;
+    background-color: #d3d3d3;
+    color: black;
+  }
